@@ -1,0 +1,20 @@
+name: fedhpc
+channels:
+    - defaults
+dependencies:
+    - click
+    - jupyterlab
+    - matplotlib
+    - mpi4py
+    - numpy
+    - pandas
+    - pip
+    - pyarrow 
+    - pyyaml
+    - scikit-learn
+    - scipy
+    - seaborn
+    - pip:
+        - torch
+        - tensorflow
+        - tabulate
